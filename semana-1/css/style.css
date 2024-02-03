@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: Helvetica;
+}
+main {
+    /* heigth: altura de la pantalla */
+    height: 130vh;
+    display: flex;
+    /* Sin el display, no se podra visualizar el align-items(centra de forma vertical */
+    align-items: center;
+    /* centra de forma horizontal */
+    justify-content: center;
+}
+div {
+    background-color: hsl(0, 0%, 12%);
+    width: 375px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 16px;
+}
+img {
+    border-radius: 50%;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+h3 {
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    margin-top: 10px;
+
+}
+
+p {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+ul {
+    list-style: none;
+    
+}
+ul > li {
+    font-size: 20px;
+    margin-top: 6px;
+    background-color: hsl(0, 0%, 12%);
+    /* padding:para agregar espacio alrededor del contenido de un elemento, dentro de su borde */
+    padding: 13px;
+    border-radius: 8px;
+}
+
+ul >li > a{
+    text-decoration: none;
+    color: white;
+    /* display: block, para que la etiqueta pase de in line a bloque */
+    display: block;
+    margin-top: 4px;
+    background-color: hsl(0, 0%, 20%);
+    padding: 13px;
+    border-radius: 10px;
+}
+/* hover: aplica estilos a un elemento cuando el cursor del mouse se encuentra sobre él. */
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 0%)
+}
