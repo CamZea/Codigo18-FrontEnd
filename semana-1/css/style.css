@@ -18,9 +18,12 @@ main {
 }
 div {
     background-color: hsl(0, 0%, 12%);
-    width: 375px;
+    /* width: el ancho del elemento */
+    width: 375px; 
+    /* espacio de relleno alrededor del contenido del elemento.  */
     padding: 30px;
     text-align: center;
+    
     border-radius: 16px;
 }
 img {
@@ -62,6 +65,7 @@ ul >li > a{
     color: white;
     /* display: block, para que la etiqueta pase de in line a bloque */
     display: block;
+    /* es el espacio en blanco que se agrega alrededor del borde exterior de un elemento */
     margin-top: 4px;
     background-color: hsl(0, 0%, 20%);
     padding: 13px;
@@ -70,5 +74,5 @@ ul >li > a{
 /* hover: aplica estilos a un elemento cuando el cursor del mouse se encuentra sobre él. */
 a:hover {
     background-color: hsl(75, 94%, 57%);
-    color:hsl(0, 0%, 0%)
+    color:hsl(0, 0%, 0%);
 }

@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Titulo de la web -->
-    <title>Bootcamp-18</title>
-  </head>
-  <body>
-    <div> 
-        <h1>Hola mundo</h1>
-        <h2>Primera clase</h2>
-        <h3>Codigo by Tecsup</h3>
-        <h4>Aprendiendo HTML</HTML></h4>
-        <h5>Conociendo VSCode</h5>
-        <h6>Creando páginas web</h6>
-        <!-- Div- para seccionar -->
-    </div>  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camila Zea - Developer FullStack</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <!-- etiqueta nav- menu de navegacion -->
+<nav>
     <div>
-        <p>
-            Hola, estoy aprendiendo a programar
-        </p>
+        <img src="image/logo-1.svg" width="35" height="40" alt=""/>
+        
     </div>
     <div>
-        <h3 aria-label="Usando imagenes">Usando imagenes</h3>
-        <img src="https://i.pinimg.com/564x/4c/2a/fd/4c2afd868455f66bd0a84c28ffcff0b7.jpg" 
-        alt="Foto de gatito"
-        width="300"
-        height="300"
-        />
-    </div>
-    <div>
-        <!-- a= redirige a otra pestaña -->
-        <a href="https://www.pinterest.com/pin/140806232190783/">foto gatito</a>
-        <!-- target _blank= para que se abra en una nueva ventana -->
-        <a href="https://www.youtube.com/watch?v=HiVnGgYudLY" target="_blank">Programacion </a>
-    </div>
-
-    <div>
-        <!-- ordenadas= "ol" dentro de ella esta "li" -->
-        <h2>Listas ordenadas y no ordenadas</h2>
-        <p>Listas de lenguajes</p>
-        <ol>
-            <li>JapaScript</li>
-            <li>C++</li>
-            <li>TypeScript</li>
-            <li>Java</li>
-            <li>PHP</li>
-        </ol>
-        <!-- Lista ul es mas usada -->
-        <p>Listas no ordenadas de Frameworks</p>
-        <ul>
-            <li> <a href="https://nextjs.org/" target="_blank">NextJS</a></li>
-            <li>Laravel</li>
-            <li>Django</li>
-            <li>Flask</li>
-            <li>Svelte Kit</li>
+        
+        <ul class="nav-list"> 
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Sobre mi</a>
+            </li>
+            <li>
+                <a href="#">Proyectos</a>
+            </li>
+            <li>
+                <a href="#">Habilidades</a>
+            </li>
+            <li>
+                <a href="#">Carrera</a>
+            </li>
+            <li>
+                <a href="#">Recomendaciones</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
         </ul>
+    </div>
+</nav>
+<main>
+    <div>
+        <span class="gretting"> Saludos 🙌, bienvenido</span>
+        <h1 class="title">Camila Zea</h1>
+        <p class="description">Network and Communications Administrator and Developer FullStack</p>
 
-
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/camila-sofia-jicel-zea-yanarico-1b1398240?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B0rnTEp8DTj6KsUnj%2FOYQGQ%3D%3D"></a>
+            <img src="image/Group_1.svg" alt="">
+            <a href="https://github.com/CamZea"></a>
+            <img src="image/github_2.svg" alt="">
+            <a href=""></a>
+            <img src="image/behance.svg" alt="">
+        </div>
+    </div>
+    <div class="container-profile">
+        <img src="image/avatar-portafolio.jpg" alt="Camila Zea- Foto de Perfil" width="240" height="200">
+    </div>
+    <div class="container-contact">
+       
+            <a href="#">Descargar CV
+                <img src="image/download.svg"alt="" /> 
+            </a>
+            <a href="#">
+                <img src="image/whatsapp.svg" alt=""/>Vamos a conversar 
+            </a>
+       
     </div>
 
-  </body>
+</main>
+<section class="container-sobremi">
+    <div class="avatar">
+        <img src="image/imagencv.jpg" alt="">
+    </div>
+   
+    <div >
+        <span class="gretting">😉  Sobre mi</span>
+        
+        <h1 class="mt-20">Camila Sofia Jicel </h1>
+        <h1 class="mt-20">Zea Yanarico</h1>
+        <h2>Arequipa, Perú</h2>
+        <p class="mb-20">🙌 Hola, me llamo Camila, un gusto poder saludarte!</p>
+        <p class="mb-20">💻 Estudie la carrera de Administración de Redes y Comunicaciones</p>
+        <p class="mb-20">🌐 Tengo bastante interés en el mundo del desarrollo web</p>
+        <p>💡 Me gustaria aprender mas sobre  React, React Native, JSS e UX/UI Design. y tambien CSS   </p>
+         
+    </div>
+   
+
+</section>
+</body>
 </html>

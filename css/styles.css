@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #090e16;
+    color: aliceblue;
+}
+
+nav {
+    /* block- ocupa todo el espa */
+    display: flex;
+    /* space-between: espacio entre elementos */
+    justify-content: space-between;
+    /* aling-items alinea elementos y aling content- se podria realizar a un cierto li o item */
+    align-items: center;
+    background-color: rgb(58, 35, 78);
+    margin: 38px  80px;
+    padding: 15px;
+    border-radius: 16px;
+
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    /* espacio entre cada elemento de contenedor */
+    gap: 20px;
+}
+.nav-list >li>a {
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.nav-list >li >a:hover {
+    color: blueviolet;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.gretting {
+    background-color: rgb(58, 35, 78); 
+    color: blueviolet;
+    padding: 8px;
+    border-radius: 18px;
+
+}
