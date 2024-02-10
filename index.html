@@ -2,13 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- lo de abajo es para que el navegador se ajuste automáticamente el ancho del viewport al ancho del dispositivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camila Zea - Developer FullStack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;0,900;1,200;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
     <!-- etiqueta nav- menu de navegacion -->
-<nav>
+<nav class="flex aling-center">
     <div>
         <img src="image/logo-1.svg" width="35" height="40" alt=""/>
         
@@ -40,7 +45,7 @@
         </ul>
     </div>
 </nav>
-<main>
+<main class="fLex aling-center">
     <div>
         <span class="gretting"> Saludos 🙌, bienvenido</span>
         <h1 class="title">Camila Zea</h1>
@@ -70,6 +75,42 @@
     </div>
 
 </main>
+<hr class="divider">
+<section>
+    <div class="container-cards">
+        <div>
+            <img src="image/CodeIcon.svg" alt=""/>
+            <p>Principiante </p>
+            <h5>Programación</h5>
+        </div>
+        <div>
+            <img src="image/ProjectsIcon.svg" alt=""/>
+            <p>Creando</p>
+            <h5>Proyectos</h5>
+        </div>
+        <div>
+            <img src="image/DesignIcon.svg" alt=""/>
+            <p>Principiante</p>
+            <h5>Designer</h5>
+        </div>
+    </div>
+    <div>
+        <div>
+            <p>Developer</p>
+            <p>Front-end</p>
+        </div>
+        <div>
+            <p>Decenas de proyectos</p>
+            <p>Experiencias</p>
+        </div>
+        <div>
+            <p>Diseñador freelance</p>
+            <p>UI / UX</p>
+        </div>
+    </div>
+
+</section>
+<hr class="divider">
 <section class="container-sobremi">
     <div class="avatar">
         <img src="image/imagencv.jpg" alt="">
@@ -87,8 +128,38 @@
         <p>💡 Me gustaria aprender mas sobre  React, React Native, JSS e UX/UI Design. y tambien CSS   </p>
          
     </div>
-   
 
+</section>
+
+<section>
+    <div> 
+        <span class="gretting">📎 Portafolio </span>
+        <h1 class="job">Trabajos y Proyectos</h1>
+    </div>
+
+    <div class="container-proyects">
+       
+        <a href="#" class="br-1"> UI Design
+            <img src="image/download.svg"alt="" /> 
+        </a>
+        <a href="#" class="br-1"> Design
+            <img src="image/whatsapp.svg" alt=""/>
+        </a>
+        <a href="#" class="br-1"> UI Design
+            <img src="image/whatsapp.svg" alt=""/>
+        </a>
+    </div>
+</section>
+
+<section>
+    <div class="move-1">
+        <h1>Move.it</h1>
+        <p>Aplicando a FrontEnd</p>
+        <P>Usando HTML y CSS</P>
+
+        <span class="gretting-2">Online</span>
+        <span class="gretting-3">Typescript</span>
+    </div>
 </section>
 </body>
 </html>
