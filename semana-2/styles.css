@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* para que el border sea interno-l tamaño total del elemento (incluyendo padding y borde) será igual al tamaño especificado */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    background-color: #C3E3E6 ;
+}
+
+input,
+button {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+}
+main{
+    display: flex;
+    /* flex direction: todo se invierte */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;   
+    gap: 50px; 
+}
+form {
+    display: flex;
+    background-color: white;
+    padding: 40px;
+    border-radius: 16px;
+    gap: 30px;
+    width: 800px;
+
+}
+
+form > div{
+    flex:1;
+}
+.container-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7%;
+    border-radius: 8px;
+    background-color: #f3f8fb;
+
+}
+.container-input >input {
+    border: none;
+    outline: none;
+    text-align: right;
+    background-color: transparent;
+
+}
+
+.text-title {
+    font-size: 14px;
+    color: #717978;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-percentage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+/*  seleccionar todos los elementos hijos directos de un elemento padre específico.  */
+.container-percentage > * {
+    width:calc(33% - 8px); /* Ancho base del botón (33.33% - 10px de margen entre botones) */
+    margin-bottom: 10px; /* Espacio entre filas */
+}
+
+.container-percentage > button {
+    background-color: #00474b;
+    color: white;
+    border: none;
+    padding: 11px 45px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+
+    
+}
+
+.container-convert {
+    display: flex;
+    background-color: #00474b;
+    padding: 40px;
+    margin: 17px;
+    border-radius: 25px;
+    writing-mode: horizontal-tb;
+
+}
+
+.convert-datos {
+    display:flex;
+
+    gap: 89px;
+    align-items: center;
+
+
+}
+
+.convert-datos > div >p:first-child {
+    color: white;
+
+}
+
+.convert-datos >div >p:last-child {
+    color: #2abfac;
+    font-size: 39px;
+    
+}
+
+
+.convert-datos > div >span {
+    color: #717978;
+    font-size: 16px;
+    /* especifica grosor de una fuente  */
+    font-weight: 100;
+    
+}
+
+
+.container-convert > div > button {
+    background-color:  #2abfac ;
+    color: #00474b;
+    font-size: 19px;
+    margin-top: 79px;
+    padding: 13px 110px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+
