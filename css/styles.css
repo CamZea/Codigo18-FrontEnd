@@ -4,11 +4,14 @@
 
 }
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: #090e16;
     color: aliceblue;
 }
-
+.divider {
+    border:rgba(123, 74, 226, 0.4) solid;
+    border-width: 0.5px;
+}
 nav {
     /* block- ocupa todo el espa */
     display: flex;
@@ -51,5 +54,194 @@ main {
     color: blueviolet;
     padding: 8px;
     border-radius: 18px;
+
+}
+
+.title {
+    font-size: 53px;
+    border-radius: 35px;
+    margin-bottom: 20px;
+
+}
+
+.description {
+    font-size: 20px;
+    color: rgba(255,255,255, 0.5);
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display:flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container-profile > img {
+    width: 450px;
+    height: 470px;
+    border-radius: 50%;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* las reglas se invierten y por eso ponemos aling para que se vaya all borde horizontal */
+    align-items: end;
+
+}
+
+.container-contact > a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* primer elemento del container-contact */
+
+.container-contact > a:first-child {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .container-contact > a:last-child {
+    border: rgba(123, 74, 226, 0.5) solid;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 16px;
+    border-width: 1px;
+  }
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+
+.container-cards >div{
+    text-align: center;
+    border:solid rgba(123, 74, 226, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 246px;
+    height: 200px;
+    border-radius: 16px;
+
+}
+/* nth seudoselector para elegir un div dentro de un div padre */
+.container-cards >div:nth-child(2) {
+    background-color: rgba(123,74,226,0.1);
+    border: none;
+}
+
+.container-cards >div > p{
+    font-size: 23px;
+    font-weight: 360;
+    margin-top: 10px;
+}
+
+.container-cards >div > h5 {
+    font-size: 35px;
+    font-weight: 37px;
+    font-weight: bold;
+}
+
+.container-cards-2 {
+    display: flex;
+    justify-content: center;
+    gap: 135px;
+    background-color: rgba(123,74,226,0.1);
+    width: 948px;
+    margin: auto;
+    border: none;
+    border-radius: 25px;
+    color: blueviolet;
+    
+}
+.container-cards-2 >div {
+    /* el ancho de un elemento */
+    width: 246px;
+    text-align: center;
+}
+.container-cards-2 >div >p {
+    font-size: 20px;
+    font-weight: 360;
+    margin-top: 10px;
+}
+
+.container-cards-2 >div >h5 {
+    font-size: 32px;
+    font-weight: 360;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+.container-sobremi {
+    display:flex;
+    justify-content: space-between;
+    padding: 80px 110px;
+}
+
+.container-sobremi >div>img {
+    border-radius: 50%;
+    width: 430px;
+    height: 430px;
+}
+
+.mt-20 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.mb-20 {
+    margin-bottom: 10px;
+
+}
+
+div >h2 {
+    margin-bottom: 20px;
+}
+
+.job {
+    font-size: 45px;
+    margin-top: 25px;
+}
+
+.container-proyects {
+    display: flex;
+    /* Los elementos flexibles se colocan de izquierda a derecha */
+    flex-direction: row-reverse; 
+    padding: 15px 95px;
+    gap: 20px;
+    /* las reglas se invierten y por eso ponemos aling para que se vaya all borde horizontal */
+    align-items: end;
+  
+}
+
+.br-1 {
+    border: rgba(123, 74, 226, 0.5) solid;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 15px 10px;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.move-1 {
+    border: 5px  rgba(123, 74, 226, 0.5) solid;
+    align-items: center;
+    gap: 8px;
+    padding: 10x 45px;
+    border-radius: 15px;
+    border-width: 1px;
 
 }
