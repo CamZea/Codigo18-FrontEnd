@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com/3.4.1"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="./js/home.js"></script>
+</head>
+<body>
+    <nav class="nav bg-[#FFC600]">
+        <ul class="flex gap-5 font-semibold" >
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Informacion</a></li>
+            <li><a href="#">Usuario</a></li>
+            <li><a href="#">Perfil</a></li>
+        </ul>
+        
+    </nav>
+    <div>
+        <div class="mt-10">
+            <p class="text-6xl text-center">
+            <span class="font-semibold">Hi! This is Mini</span>
+            <span class="font-bold text-[#FFC600]">Shop</span>      
+        </p>
+        </div>
+        <img class="mx-20"  src="Online shopping.png" alt="">
+    </div>
+    <div>
+        <h1 id="name">Nombre de Usuario</h1>
+        <h1 id="email">Email</h1>
+        <button id="btn-logout"class="mt-5 w-full bg-red-500 p-2 rounded-md text-white">Cerrar Sesión</button>
+    </div>
+   
+    
+</body>
+</html>
